@@ -2,13 +2,12 @@ stylize.rb
 =======
 
 Ruby ANCI-stylized terminal text output. Extends class String.
-======
+===
 
 Example:
 ====
 
-require './stylize.rb'
-
+require './stylize.rb'    
 puts "[ ".blink + " hello world ".cyan.blink.bold.red_background + " ]".blink
 
 Helper Methods:
@@ -70,7 +69,7 @@ Notes
 
 Originally created by Austen Conrad - http://ARConrad.com
 
-Twitter: @AustenConrad | http://twitter.com/AustenConrad
+Twitter: @AustenConrad - http://twitter.com/AustenConrad
 
 Git: http://github.com/AustenConrad/stylize
 
