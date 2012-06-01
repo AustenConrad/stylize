@@ -13,7 +13,7 @@ puts "[ ".blink + " hello world ".cyan.blink.bold.red_background + " ]".blink
 Helper Methods:
 ====
 
-black, red, green, yellow, blue, magenta, cyan, white
+black, red, green, yellow, blue, magenta, cyan, white, 
 black_background, red_background, green_background, 
 yellow_background, blue_background, magenta_background,
 cyan_background, white_background, bold, underline, blink, 
