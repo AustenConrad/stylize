@@ -7,6 +7,7 @@ Ruby ANCI-stylized terminal text output. Extends class String.
 Example:
 ====
 
+require './stylize.rb'
 puts "[ ".blink + " hello world ".cyan.blink.bold.red_background + " ]".blink
 
 Helper Methods:
