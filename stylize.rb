@@ -8,8 +8,8 @@ class String
   # Red text 
   #   => "hello world".stylize([31])
   #   
-  # Blinking Magenta text with a white background.
-  #   => "hello world".stylize([35, 47, 5])
+  # Blinking (5) Magenta text (35) with a white background (47).
+  #   => "hello world".stylize([5, 35, 47])
   # 
   # Foreground (I.E. text) Codes:    
   #   30	Black 
