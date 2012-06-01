@@ -1,7 +1,7 @@
 stylize.rb
 =======
 
-Ruby ANCI-stylized terminal text output. Extends class String.
+Ruby ANSI-stylized terminal text output. Extends class String.
 ===
 
 Example:
