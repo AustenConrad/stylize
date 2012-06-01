@@ -44,13 +44,10 @@ class String
   # For a complete background on the codes used please see:
   # http://en.wikipedia.org/wiki/ANSI_escape_code
   # 
-  # Originally created by Austen Conrad
-  # http://ARConrad.com
-  # Twitter: @AustenConrad | http://twitter.com/AustenConrad
+  # Originally created by Austen Conrad - http://ARConrad.com
+  # Twitter: @AustenConrad - http://twitter.com/AustenConrad
   # 
-  # Git:
-  # http://github.com/AustenConrad/stylize
-  # 
+  # Git: http://github.com/AustenConrad/stylize
   # 
   #  Copyright (C) 2012 Austen Conrad
   #
@@ -77,7 +74,6 @@ class String
       style_string << "\e[#{option.to_i}m" if [0,1,4,5,7,8,30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47,49].include? option.to_i
     end unless options.empty?
       
-
     # Append the text of the string we're operating on as well as style code '0'
     # so that text following the stylized string does not get stylized.
     style_string << "#{self}\e[0m"
