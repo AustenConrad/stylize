@@ -2,10 +2,10 @@ stylize.rb
 =======
 
 Ruby ANCI-stylized terminal text output. Extends class String.
-
 ======
 
 Helper Methods:
+====
 
 black, red, green, yellow, blue, magenta, cyan, white
 black_background, red_background, green_background, 
@@ -13,9 +13,8 @@ yellow_background, blue_background, magenta_background,
 cyan_background, white_background, bold, underline, blink, 
 swap_foreground_and_background, hide
 
-======
-
 To call directly:
+====
 
 Default terminal window settings 
  => "hello world".stylize
