@@ -25,6 +25,9 @@ Red text
 Blinking Magenta text with a white background.
  => "hello world".stylize([35, 47, 5])
 
+Codes
+====
+
 Foreground (I.E. text) Codes:    
  30	Black 
  31	Red 
@@ -58,13 +61,15 @@ Style Codes:
 For a complete background on the codes used please see:
 http://en.wikipedia.org/wiki/ANSI_escape_code
 
+Notes
+====
+
 Originally created by Austen Conrad
 http://ARConrad.com
 Twitter: @AustenConrad | http://twitter.com/AustenConrad
 
 Git:
 http://github.com/AustenConrad/stylize
-
 
 Copyright (C) 2012 Austen Conrad
 
