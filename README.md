@@ -23,17 +23,11 @@ swap_foreground_and_background, hide
 To call directly:
 ====
 
-Default terminal window settings 
+"hello world".stylize => Default terminal window settings.
 
- => "hello world".stylize
+"hello world".stylize([31]) => Red Text
 
-Red text 
-
- => "hello world".stylize([31])
-
-Blinking Magenta text with a white background.
-
- => "hello world".stylize([35, 47, 5])
+"hello world".stylize([35, 47, 5]) => Blinking Magenta text with a white background.
 
 Codes
 ====
@@ -49,7 +43,7 @@ Foreground (I.E. text) Codes:
  37	White, 
  39	Default
 
-Background Codes:
+Background Codes:    
  40	Black, 
  41	Red, 
  42	Green, 
@@ -60,7 +54,7 @@ Background Codes:
  47	White, 
  49	Default  
 
-Style Codes:
+Style Codes:    
  0	Switch off all attributes,
  1	Bold mode,
  4	Underline mode,
