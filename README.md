@@ -8,6 +8,7 @@ Example:
 ====
 
 require './stylize.rb'
+
 puts "[ ".blink + " hello world ".cyan.blink.bold.red_background + " ]".blink
 
 Helper Methods:
@@ -23,12 +24,15 @@ To call directly:
 ====
 
 Default terminal window settings 
+
  => "hello world".stylize
 
 Red text 
+
  => "hello world".stylize([31])
 
 Blinking Magenta text with a white background.
+
  => "hello world".stylize([35, 47, 5])
 
 Codes
