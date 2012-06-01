@@ -4,6 +4,11 @@ stylize.rb
 Ruby ANCI-stylized terminal text output. Extends class String.
 ======
 
+Example:
+====
+
+puts "[ ".blink + " hello world ".cyan.blink.bold.red_background + " ]".blink
+
 Helper Methods:
 ====
 
