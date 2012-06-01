@@ -26,7 +26,7 @@ To call directly:
 
 "hello world".stylize([31]) => Red Text
 
-"hello world".stylize([35, 47, 5]) => Blinking Magenta text with a white background.
+"hello world".stylize([5, 35, 47]) => Blinking (5) Magenta text (37) with a white background (47).
 
 Codes
 ====
