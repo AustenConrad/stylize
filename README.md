@@ -39,33 +39,33 @@ Codes
 ====
 
 Foreground (I.E. text) Codes:    
- 30	Black 
- 31	Red 
- 32	Green 
- 33	Yellow 
- 34	Blue 
- 35	Magenta 
- 36	Cyan 
- 37	White 
+ 30	Black, 
+ 31	Red, 
+ 32	Green, 
+ 33	Yellow, 
+ 34	Blue, 
+ 35	Magenta, 
+ 36	Cyan, 
+ 37	White, 
  39	Default
 
 Background Codes:
- 40	Black 
- 41	Red 
- 42	Green 
- 43	Yellow 
- 44	Blue 
- 45	Magenta 
- 46	Cyan 
- 47	White 
+ 40	Black, 
+ 41	Red, 
+ 42	Green, 
+ 43	Yellow, 
+ 44	Blue, 
+ 45	Magenta, 
+ 46	Cyan, 
+ 47	White, 
  49	Default  
 
 Style Codes:
- 0	Switch off all attributes.
- 1	Bold mode.
- 4	Underline mode.
- 5	Blinking mode.
- 7	Swap foreground and background colors.
+ 0	Switch off all attributes,
+ 1	Bold mode,
+ 4	Underline mode,
+ 5	Blinking mode,
+ 7	Swap foreground and background colors,
  8	Hide text. I/E. the foreground and background are the same.
 
 For a complete background on the codes used please see:
@@ -74,12 +74,11 @@ http://en.wikipedia.org/wiki/ANSI_escape_code
 Notes
 ====
 
-Originally created by Austen Conrad
-http://ARConrad.com
+Originally created by Austen Conrad - http://ARConrad.com
+
 Twitter: @AustenConrad | http://twitter.com/AustenConrad
 
-Git:
-http://github.com/AustenConrad/stylize
+Git: http://github.com/AustenConrad/stylize
 
 Copyright (C) 2012 Austen Conrad
 
